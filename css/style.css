@@ -1,0 +1,70 @@
+/* CSS reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Generics*/
+
+body {
+    background-color: #ffffff;
+    font-family: arial;
+}
+
+header {
+    background-color: #ADD8E6;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navigation {
+    background-color: #DAA520;
+    margin: 20px;
+}
+
+div {
+    display: inline-table;
+}
+
+.logo {
+    width: 200px;
+    border: #000 dashed;
+    vertical-align: middle;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.nav {
+    width: 200px;
+    text-align: center;
+    border: #000 dashed;
+    vertical-align: middle;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.login {
+    width: 200px;
+    border: #000 dashed;
+    vertical-align: middle;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.introduction {
+    background-color: #00008B;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.intro {
+    background-color: #EE82EE;
+    margin: 40px;
+    border: #000 dashed;
+    width: 900px;
+    height: 400px;
+}
