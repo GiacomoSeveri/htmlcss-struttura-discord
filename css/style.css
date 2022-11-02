@@ -63,8 +63,72 @@ div {
 
 .intro {
     background-color: #EE82EE;
-    margin: 40px;
+    margin: 60px;
     border: #000 dashed;
     width: 900px;
     height: 400px;
+}
+
+.row-even {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.feven {
+    background-color: #1E90FF;
+    margin: 60px;
+    margin-right: 0px;
+    border: #000 dashed;
+    margin-left: 200px;
+    width: 70%;
+    height: 550px;
+}
+
+.seven {
+    background-color: #FFC0CB;
+    margin: 60px;
+    margin-left: 0px;
+    border: #000 dashed;
+    margin-right: 200px;
+    width: 35%;
+    height: 550px;
+}
+
+
+
+.row-odd {
+    background-color: #D3D3D3;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.fodd {
+    background-color: #FFC0CB;
+    margin: 60px;
+    margin-right: 0px;
+    border: #000 dashed;
+    margin-left: 200px;
+    width: 35%;
+    height: 550px;
+}
+
+.sodd {
+    background-color: #1E90FF;
+    margin: 60px;
+    margin-left: 0px;
+    border: #000 dashed;
+    margin-right: 200px;
+    width: 70%;
+    height: 550px;
+}
+
+.flast {
+    background-color: #228B22;
+    margin: 60px;
+    border: #000 dashed;
+    width: 79%;
+    height: 950px;
 }
