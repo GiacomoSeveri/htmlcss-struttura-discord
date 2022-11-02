@@ -18,6 +18,7 @@ header {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+;
 }
 
 .navigation {
@@ -30,28 +31,29 @@ div {
 }
 
 .logo {
-    width: 200px;
-    border: #000 dashed;
+    width: 350px;
+    border: 2px dashed #000;
     vertical-align: middle;
     font-size: 20px;
     padding: 10px;
 }
 
 .nav {
-    width: 200px;
+    width: 400px;
     text-align: center;
-    border: #000 dashed;
+    border: 2px dashed #000;
     vertical-align: middle;
     font-size: 20px;
     padding: 10px;
 }
 
 .login {
-    width: 200px;
-    border: #000 dashed;
+    width: 350px;
+    border: 2px dashed #000;
     vertical-align: middle;
     font-size: 20px;
     padding: 10px;
+    text-align: end;
 }
 
 .introduction {
@@ -64,7 +66,7 @@ div {
 .intro {
     background-color: #EE82EE;
     margin: 60px;
-    border: #000 dashed;
+    border: 2px dashed #000;
     width: 900px;
     height: 400px;
 }
@@ -80,7 +82,7 @@ div {
     background-color: #1E90FF;
     margin: 60px;
     margin-right: 0px;
-    border: #000 dashed;
+    border: 2px dashed #000;
     margin-left: 200px;
     width: 70%;
     height: 550px;
@@ -90,7 +92,7 @@ div {
     background-color: #FFC0CB;
     margin: 60px;
     margin-left: 0px;
-    border: #000 dashed;
+    border: 2px dashed #000;
     margin-right: 200px;
     width: 35%;
     height: 550px;
@@ -109,7 +111,7 @@ div {
     background-color: #FFC0CB;
     margin: 60px;
     margin-right: 0px;
-    border: #000 dashed;
+    border: 2px dashed #000;
     margin-left: 200px;
     width: 35%;
     height: 550px;
@@ -119,7 +121,7 @@ div {
     background-color: #1E90FF;
     margin: 60px;
     margin-left: 0px;
-    border: #000 dashed;
+    border: 2px dashed #000;
     margin-right: 200px;
     width: 70%;
     height: 550px;
@@ -128,7 +130,7 @@ div {
 .flast {
     background-color: #228B22;
     margin: 60px;
-    border: #000 dashed;
+    border: 2px dashed #000;
     width: 79%;
     height: 950px;
 }
@@ -143,7 +145,7 @@ div {
 }
 
 .all-int {
-    border: #000 dashed;
+    border:  dashed #000;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -166,19 +168,27 @@ div {
 .last-b {
     margin-top: 2px;
     background-color: #23272A;
+    padding-top: 50px;
 }
 
 .end {
     background-color: #7FFFD4;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
-    padding: 10px;
-    padding-bottom: 35px; 
-    min-width: 80%;
+    padding: 20px 0px 35px 0;
+    width: 1000px;
+    margin: 0 auto;
 }
 
 .button {
     background-color: #FFB6C1;
-    border: #000 dashed;
+    border: 2px dashed #000;
+    padding: 5px;
+}
+
+.logo-b {
+    background-color: #FFB6C1;
+    border: 2px dashed #000;
+    padding: 5px;
 }
